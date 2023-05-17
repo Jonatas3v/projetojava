@@ -1,0 +1,44 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.navlateral {
+    background-color: lightsalmon;
+    height: 100%;
+    width: 150px;
+    position: fixed;
+    z-index: 1;
+    overflow: hidden;
+    padding-top: 20px;
+}
+
+.navlateral a {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    padding: 6px 10px 6px 18px;
+    display: block;
+}
+
+.navlateral a:hover {
+    background-color: rgb(255, 108, 50);
+    color: blue;
+}
+
+main {
+    margin-left: 150px;
+    padding: 0 10px;
+}
+
+@media (max-width:800px) {
+    .navlateral {
+        width: 120px;
+    }
+    .navlateral a {
+        font-size: 20px;
+    }
+    main{
+        margin-left: 120px;
+    }
+}
